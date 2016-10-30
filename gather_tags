@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -fsq ftp://ftp.gdcproject.org/binaries/ | cut -c 57- | grep '^[0-9]'
