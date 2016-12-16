@@ -4,7 +4,7 @@ MAINTAINER Stefan Rohe <think@hotmail.de>
 
 ENV \
   COMPILER=gdc \
-  COMPILER_VERSION=5.2.0
+  COMPILER_VERSION=5.4.0
 
 RUN apt-get update && apt-get install -y curl build-essential \
  && curl -fsS -o /tmp/install.sh https://dlang.org/install.sh \
